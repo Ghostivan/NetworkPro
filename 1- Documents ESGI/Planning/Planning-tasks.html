@@ -1,0 +1,750 @@
+<html xmlns:ganttproject="http://ganttproject.sf.net/">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>GanttProject - Planning</title>
+<style>
+	    A:link {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black;
+	    }
+	    A:visited {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: black; BACKGROUND: none
+	    }
+	    A:hover {
+		FONT-WEIGHT: bold;  TEXT-DECORATION: none;
+		FONT-SIZE: 14px ; COLOR: white ; BACKGROUND: #6d9ec6;
+	    }
+	    .notes {
+	      padding-left: 10px;
+	    }
+	    .notes pre {
+	      font-family: Arial, Helvetica;
+	      font-size: 10px;
+	      margin-top: 0px;
+	      padding-top: 0px;
+	      margin-bottom: 5px;
+	    }
+	    .attachment {
+	      padding-left: 10px;
+	    }
+	    .attachment a:link {
+	      font-weight: normal;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:hover {
+	      font-weight: normal;
+	      text-decoration: underline;
+	      font-size: 12px;
+	      color: #6d9ec6;
+	      background: white;
+	    }
+	    .attachment a:visited {
+	      font-weight: normal;
+	      font-size: 12px;
+	      background: white;
+	      color: gray;
+	    }
+	    TD {
+		FONT-SIZE: 12px; COLOR: black; FONT-STYLE: normal; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    UL {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    LI {
+		FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, Geneva, sans-serif
+	    }
+	    H1 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #6d9ec6;
+	    }
+	    H2 {
+		FONT-WEIGHT: bold; FONT-SIZE: 16pt; COLOR: #000000;
+	    }
+	    H3 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #6d9ec6;
+	    }
+	    H4 {
+		FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: #000000;
+	    }
+	    H5 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #6d9ec6;
+	    }
+	    H6 {
+		FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #000000
+	    }
+
+	    </style>
+</head>
+<body bgcolor="white">
+<center>
+<style>
+div.project_name {
+  font-size: 150%;
+  color: black;
+  font-weight: bold;
+  border-top: solid #6d9ec6 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+}
+div.page_links {
+  background: #6d9ec6;
+  text-align: center;
+}
+</style>
+<center>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td bgcolor="#dddddd">
+<div class="project_name">NetworkPro - Gantt</div>
+</td>
+</tr>
+<tr>
+<td>
+<div class="page_links">
+<a href="Planning.html"></a>  |
+          <a href="Planning-chart.html">Diagramme de Gantt</a> |
+          <a href="Planning-tasks.html">T&acirc;ches</a> |
+          <a href="Planning-resources.html">Ressources</a>
+</div>
+</td>
+</tr>
+</table>
+</center>
+<br>
+<style>
+td.header {
+  background: #dddddd;
+  margin: 0;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+  border-bottom: solid black 2px;
+}
+td.cell {
+  margin: 0;
+  margin-top: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 2px;
+  padding-bottom:1px;
+}
+div.cell {
+}
+h5.header {
+  margin-left: 2px;
+  margin-top: 2px;
+}
+</style>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top" class="header">
+<h5 class="header">Nom</h5>
+</td><td valign="top" class="header">
+<h5 class="header">Date de d&eacute;but</h5>
+</td><td valign="top" class="header">
+<h5 class="header">Date de fin</h5>
+</td><td valign="top" class="header">
+<h5 class="header">Ressources</h5>
+</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0em">
+<div style="margin: 0; padding: 0;">1- Phase de lancement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">10/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">13/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Etude des besoins</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">10/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">10/12/15</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction du CDC</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">11/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">12/12/15</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Validation du CDC</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">13/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">13/12/15</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction mod&egrave;le de gestion</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">20/12/15</div>
+</div>
+</td><td valign="top" class="cell">Damien DIRAME</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction sp&eacute;cification technique</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">20/12/15</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Validation sp&eacute;cification technique et mod&egrave;le de gestion(Client + ESGI)</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">21/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/12/15</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction document de test</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">23/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">11/01/16</div>
+</div>
+</td><td valign="top" class="cell">Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction document de structuration</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">23/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">11/01/16</div>
+</div>
+</td><td valign="top" class="cell">Damien DIRAME</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Cr&eacute;ation Wireframe</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">23/12/15</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">11/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Validation Wireframe + Document de test + Document de structuration</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">12/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">13/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0em">
+<div style="margin: 0; padding: 0;">2 - Phase de d&eacute;veloppement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;union de lancement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Maquette (POC)</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">15/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">03/02/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Validation Client Maquette</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Installation machine de d&eacute;veloppement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">15/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">24/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Reprise de la maquette * Optionnel</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">08/02/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">1 - D&eacute;veloppement 3 Fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/03/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">1 - Cr&eacute;ation du package de d&eacute;ploiement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">26/03/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">2 - D&eacute;veloppement 3 Fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">30/04/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">2 - Cr&eacute;ation du package de d&eacute;ploiement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">10/05/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">3 - D&eacute;veloppement de fonctionnalit&eacute;s annexes</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">30/05/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">3 - Cr&eacute;ation package de d&eacute;ploiement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">31/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0em">
+<div style="margin: 0; padding: 0;">3 - Phase de test</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Cr&eacute;ation cahier de recette</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">05/02/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">1 - Maj CDR  V&eacute;rification des 3 fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/02/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">21/03/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">2 - Maj CDR  V&eacute;rification des 3 fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">05/05/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">3 - Maj CDR V&eacute;rification fonctionnalit&eacute;s annexes</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">04/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0em">
+<div style="margin: 0; padding: 0;">4 - Phase de livraison</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Guillaume VILLEREZ, Damien DIRAME</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Livraison 1 - Phase de lancement</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/01/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Livraison 2 - Phase 1 d&eacute;veloppement 3 fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">22/03/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Livraison 3 - Phase 2 d&eacute;veloppement 3 fonctionnalit&eacute;s</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">R&eacute;daction documentation Technique &amp; Fonctionnelle + Documents ESGI</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">06/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">14/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Livraison 4 - Documentation Technique &amp; Fonctionnelle</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">15/06/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">15/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0em">
+<div style="margin: 0; padding: 0;">5 - Avancement ESGI</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">20/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">01/07/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Etat d'avancement  et 35% du projet &agrave; montrer</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">20/03/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">20/03/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Etat d'avancement  et 70% du projet &agrave; montrer</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">16/05/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">16/05/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Etat d'avancement  et 95% du projet &agrave; montrer</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">18/06/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">18/06/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+<tr>
+<td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">Livraison finale du projet</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">01/07/16</div>
+</div>
+</td><td valign="top" class="cell">
+<div style="margin:0; padding:0; padding-left:0.5em">
+<div style="margin: 0; padding: 0;">01/07/16</div>
+</div>
+</td><td valign="top" class="cell">Ivan KLARMAN, Damien DIRAME, Guillaume VILLEREZ</td>
+</tr>
+</table>
+</center>
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td bgcolor="#6d9ec6" width="50%"><font color="#FFFFFF"><b>Ganttproject (2.7.1 Ostrava (build 1924))</b></font></td><td bgcolor="#6d9ec6" width="50%" align="right"><b><a href="http://ganttproject.biz">ganttproject.biz</a></b>
+<br>
+<b>19/12/15 - 07:24:00</b></td>
+</tr>
+</table>
+</body>
+</html>
