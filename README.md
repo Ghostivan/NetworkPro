@@ -9,7 +9,7 @@ Rédaction Spécification technique   [![alt text](https://github.com/izyj/Moyen
 
 Document de tests [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
-## Phase de développement partie 1 : Date limite 22/12/2015   
+## Phase de développement partie 1 : Date limite 10/01/2016   
 
 Installation des machines de développement : 
 
