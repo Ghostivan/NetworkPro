@@ -17,4 +17,4 @@ Installation des machines de développement :
 
 -- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
   
--- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
