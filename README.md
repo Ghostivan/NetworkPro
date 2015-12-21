@@ -1,5 +1,11 @@
 # NetworkPro
 Annual Project ESGI Student
 
-# Avancement GANTT
-![alt tag](https://github.com/Ghostivan/NetworkPro/blob/master/1-%20Documents%20ESGI/Planning/Planning.png)
+## Prochaines étapes - Date limite 22/12/2015   
+
+Finalisation Document modèle de gestion[![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
+
+Rédaction Spécification technique   [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
+
+Document de tests [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)IVAN
+
