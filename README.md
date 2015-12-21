@@ -1,7 +1,7 @@
 # NetworkPro
 Annual Project ESGI Student
 
-## Prochaines étapes - Date limite 22/12/2015   
+## Phase de lancement: Date limite 22/12/2015   
 
 Finalisation Document modèle de gestion[![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
@@ -9,3 +9,12 @@ Rédaction Spécification technique   [![alt text](https://github.com/izyj/Moyen
 
 Document de tests [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
+## Phase de développement partie 1 : Date limite 22/12/2015   
+
+Installation des machines de développement : 
+
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)
+
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+  
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
