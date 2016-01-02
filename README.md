@@ -1,7 +1,7 @@
 # NetworkPro
 Annual Project ESGI Student
 
-## Phase de lancement: Date limite 22/12/2015   
+## Phase de lancement: Date limite 04/01/2015   
 
 Finalisation Document modèle de gestion[![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
