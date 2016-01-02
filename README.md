@@ -5,7 +5,7 @@ Annual Project ESGI Student
 
 Finalisation Document modèle de gestion[![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
-Rédaction Spécification technique   [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+Rédaction Spécification technique   [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
 Politique de test [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
