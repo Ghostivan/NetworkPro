@@ -9,7 +9,7 @@ Rédaction Spécification technique   [![alt text](https://github.com/izyj/Moyen
 
 Politique de test [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
-Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
 ## Phase de développement partie 1 : Date limite 10/01/2016   
 
