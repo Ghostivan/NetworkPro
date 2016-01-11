@@ -1,0 +1,32 @@
+﻿<Window x:Class="NetworkPro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Network Pro" Height="350" Width="525">
+    <Grid>
+        <TabControl x:Name="TabNetworkPro" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch">
+            <TabItem Header="Etat du réseaux">
+                <Grid Background="#FFE5E5E5">
+                    <DataGrid Margin="23,58,16.667,14.667" RenderTransformOrigin="0.5,0.5" FrozenColumnCount="1" >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" HeaderStringFormat="" Header="Nom"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" HeaderStringFormat="" Header="IP"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Etat"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Utilisateurs connectés"/>
+                        </DataGrid.Columns>
+                        <DataGrid.RenderTransform>
+                            <TransformGroup>
+                                <ScaleTransform/>
+                                <SkewTransform AngleX="-0.31"/>
+                                <RotateTransform/>
+                                <TranslateTransform X="0.492"/>
+                            </TransformGroup>
+                        </DataGrid.RenderTransform>
+                    </DataGrid>
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="25,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209" ToolTip="Rechercher une machine..."/>
+                </Grid>
+            </TabItem>
+            
+        </TabControl>
+
+    </Grid>
+</Window>
