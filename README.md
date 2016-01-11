@@ -15,8 +15,8 @@ Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.
 
 Installation des machines de développement : 
 
--- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
 -- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
   
--- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
