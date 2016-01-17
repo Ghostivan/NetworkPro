@@ -6,26 +6,54 @@
         <TabControl x:Name="TabNetworkPro" HorizontalAlignment="Stretch" Margin="0" VerticalAlignment="Stretch">
             <TabItem Header="Etat du réseaux">
                 <Grid Background="#FFE5E5E5">
-                    <DataGrid Margin="23,58,16.667,14.667" RenderTransformOrigin="0.5,0.5" FrozenColumnCount="1" >
+                    <TextBox HorizontalAlignment="Left" Height="23" Margin="14,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209" ToolTip="Rechercher une machine...">
+                     
+                    </TextBox>
+                    <DataGrid x:Name="DataGridEtatReseaux" Margin="14,58,14,14" RenderTransformOrigin="0.5,0.5" Grid.Row="10"  >
                         <DataGrid.Columns>
-                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" HeaderStringFormat="" Header="Nom"/>
-                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" HeaderStringFormat="" Header="IP"/>
-                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Etat"/>
-                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Utilisateurs connectés"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Nom" Width="10*"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="IP" Width="18*"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Etat" Width="18*"/>
+                            <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Utilisateurs connectés" Width="54*"/>
                         </DataGrid.Columns>
-                        <DataGrid.RenderTransform>
-                            <TransformGroup>
-                                <ScaleTransform/>
-                                <SkewTransform AngleX="-0.31"/>
-                                <RotateTransform/>
-                                <TranslateTransform X="0.492"/>
-                            </TransformGroup>
-                        </DataGrid.RenderTransform>
+                 
                     </DataGrid>
-                    <TextBox HorizontalAlignment="Left" Height="23" Margin="25,24,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="209" ToolTip="Rechercher une machine..."/>
                 </Grid>
             </TabItem>
-            
+            <TabItem Header="Applications">
+                <Grid Background="#FFE5E5E5">
+                    <TabControl x:Name="TabAppli">
+                        <TabItem IsEnabled="False" Visibility="Hidden">
+                            <Grid Background="#FFE5E5E5">
+                                <Button x:Name="AjoutAppli" Content="Ajouter une application à déployer" HorizontalAlignment="Left" Margin="14,12,0,0" VerticalAlignment="Top" Width="200" Height="27" BorderThickness="1" Click="AjoutAppli_Click"/>
+                                <TextBox HorizontalAlignment="Left" Height="23" Margin="14,50,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" ToolTip="Rechercher une application...">
+                                </TextBox>
+                                <DataGrid x:Name="DataGridApplications" Margin="14,90,14,14" RenderTransformOrigin="0.5,0.5">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Nom" Width="15*"/>
+                                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Editeur" Width="20*"/>
+                                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Version" Width="20*"/>
+                                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Compatibilité" Width="30*"/>
+                                        <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Extension" Width="25*"/>
+                                    </DataGrid.Columns>
+                                </DataGrid>
+                            </Grid>
+                        </TabItem>
+                            
+            <TabItem IsHitTestVisible="True" Visibility="Hidden">
+                <Grid Background="#FFE5E5E5">
+                                <Label Content="Importer un .exe ou .msi : " HorizontalAlignment="Left" Height="25" Margin="58,50,0,0" VerticalAlignment="Top" Width="150"/>
+                                <Button x:Name="ParcourAppli" Content="Parcourir les fichiers ..." HorizontalAlignment="Left" Margin="220,52,0,0" VerticalAlignment="Top" Width="150" BorderThickness="1" Click="ParcourAppli_Click"/>
+                                <Label Content="Attention, les compatibilités acceptés sont x64 bits ou x86 bits." HorizontalAlignment="Left" Height="25" Margin="58,80,0,0" VerticalAlignment="Top" Width="230" Foreground="Red" FontSize="8"/>
+                            </Grid>
+            </TabItem>
+                    </TabControl>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Planifications">
+            </TabItem>
+            <TabItem Header="Actualiser">
+            </TabItem>
         </TabControl>
 
     </Grid>

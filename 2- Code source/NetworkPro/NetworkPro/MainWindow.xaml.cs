@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,6 +25,31 @@ namespace NetworkPro
         {
             InitializeComponent();
         }
+
+        private void ParcourAppli_Click(object sender, RoutedEventArgs e)
+        {
+            string appli;
+            OpenFileDialog oFDAppli = new OpenFileDialog();
+            oFDAppli.Filter = "Application|*.exe;*.msi";
+            oFDAppli.ShowDialog();
+            appli=oFDAppli.FileName;
+
+            TabAppli.SelectedIndex = 0;
+
+        }
+
+        private void AjoutAppli_Click(object sender, RoutedEventArgs e)
+        {
+            TabAppli.SelectedIndex = 1;
+        }
+
+        
+
+        
+
+      
+
+        
 
        
     }
