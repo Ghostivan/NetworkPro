@@ -11,7 +11,7 @@ Politique de test [![alt text](https://github.com/izyj/MoyenneProject/raw/master
 
 Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
-## Phase de développement partie 1 : Date limite 10/01/2016   
+## Phase de développement partie 1 : Date limite 31/01/2016   
 
 Installation des machines de développement : 
 
@@ -20,3 +20,15 @@ Installation des machines de développement :
 -- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
   
 -- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+
+Maquette POC  - Vues des différents écrans : 
+
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+
+Fonctionnalité - Etat du réseaux : 
+
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+
+Fonctionnalité - Connectivité Client-Serveur : 
+
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)
