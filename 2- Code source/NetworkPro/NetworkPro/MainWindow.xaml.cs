@@ -26,7 +26,7 @@ namespace NetworkPro
             InitializeComponent();
         }
 
-        private void ParcourAppli_Click(object sender, RoutedEventArgs e)
+        private void btParcourAppli_Click(object sender, RoutedEventArgs e)
         {
             string appli;
             OpenFileDialog oFDAppli = new OpenFileDialog();
@@ -38,11 +38,49 @@ namespace NetworkPro
 
         }
 
-        private void AjoutAppli_Click(object sender, RoutedEventArgs e)
+        private void btAjoutAppli_Click(object sender, RoutedEventArgs e)
         {
             TabAppli.SelectedIndex = 1;
         }
 
+        private void btWakeOnLane_Click(object sender, RoutedEventArgs e)
+        {
+            TabPlanif.SelectedIndex = 1;
+        }
+
+        private void btPlannifierDeploiment_Click(object sender, RoutedEventArgs e)
+        {
+            TabPlanif.SelectedIndex = 3;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var suppPlan = MessageBox.Show("Etes-vous sûr de vouloir supprimer cette planification ?", "Supression de planification", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+            if (suppPlan == MessageBoxResult.Yes)
+            {
+                
+            }
+        }
+
+        private void Hyperlink_Click_1(object sender, RoutedEventArgs e)
+        {
+            TabPlanif.SelectedIndex = 2;
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            TabPlanif.SelectedIndex = 1;
+        }
+
+        
+
+        
+
+        
+
+        
+            
+            
         
 
         
