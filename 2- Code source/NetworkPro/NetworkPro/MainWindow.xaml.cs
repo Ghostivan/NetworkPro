@@ -21,6 +21,8 @@ namespace NetworkPro
     /// </summary>
     public partial class MainWindow : Window
     {
+        
+
         public MainWindow()
         {
             InitializeComponent();
@@ -72,23 +74,29 @@ namespace NetworkPro
             TabPlanif.SelectedIndex = 1;
         }
 
-        
-
-        
-
-        
-
-        
-            
-            
-        
-
-        
-
-      
-
-        
-
        
+
+        private void TabNetworkPro_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            /*switch (TabNetworkPro.SelectedIndex)
+            {
+                case 1:
+                    TabAppli.SelectedIndex = 0;
+                    break;
+                case 2:
+                    TabPlanif.SelectedIndex = 0;
+                    break;
+            }*/
+        }
+
+        private void Retour_Menu_Click(object sender, RoutedEventArgs e)
+        {
+            TabPlanif.SelectedIndex = 0;
+        }
+
+        private void Retour_Click(object sender, RoutedEventArgs e)
+        {
+            TabAppli.SelectedIndex = 0;
+        }
     }
 }
