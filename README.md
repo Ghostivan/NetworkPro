@@ -23,12 +23,32 @@ Installation des machines de développement :
 
 Maquette POC  - Vues des différents écrans : 
 
--- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
-Fonctionnalité - Etat du réseaux : 
+Fonctionnalité - Planification d'une tâche sur la machine locale : 
 
--- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "EN COURS")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+
+Fonctionnalité - Liste des applications en cours 
+
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+
+Fonctionnalité - Remote desktop depuis le serveur vers une machine
+
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
 Fonctionnalité - Connectivité Client-Serveur : 
 
--- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+
+Fonctionnalité - Mise en place et test de Nancy FX : 
+
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+
+Fonctionnalité - Mise en place et test compatibilité MongoDB & Nancy FX : 
+
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+
+Fonctionnalité - Test avec les websockets : 
+
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
