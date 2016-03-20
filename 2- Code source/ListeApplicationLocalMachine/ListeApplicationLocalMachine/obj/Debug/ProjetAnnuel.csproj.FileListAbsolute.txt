@@ -1,0 +1,9 @@
+c:\users\navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\obj\Debug\ProjetAnnuel.csprojResolveAssemblyReference.cache
+c:\users\navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\Cassia.dll
+c:\users\navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\Cassia.xml
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\System.Management.Automation.dll
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\ListeApplicationLocalMachine.exe.config
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\ListeApplicationLocalMachine.exe
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\bin\Debug\ListeApplicationLocalMachine.pdb
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\obj\Debug\ListeApplicationLocalMachine.exe
+C:\Users\Navi\documents\visual studio 2012\Projects\ProjetAnnuel\ProjetAnnuel\obj\Debug\ListeApplicationLocalMachine.pdb
