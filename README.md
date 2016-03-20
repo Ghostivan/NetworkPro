@@ -15,9 +15,9 @@ Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.
 
 Installation des machines de développement : 
 
--- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
--- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
   
 -- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
@@ -27,8 +27,8 @@ Maquette POC  - Vues des différents écrans :
 
 Fonctionnalité - Etat du réseaux : 
 
--- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Ivan [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "KO")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
 
 Fonctionnalité - Connectivité Client-Serveur : 
 
--- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ko.png)
+-- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
