@@ -15,7 +15,7 @@ Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.
 
 Installation des machines de développement : 
 
--- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
 -- Guillaume [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
   
@@ -23,7 +23,7 @@ Installation des machines de développement :
 
 Maquette POC  - Vues des différents écrans : 
 
--- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/okko.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/okko.png)
+-- Damien [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "En Cours")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
 Fonctionnalité - Etat du réseaux : 
 
