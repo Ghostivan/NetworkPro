@@ -11,3 +11,16 @@ C:\Users\Damien\Documents\cours\ESGI\5A\Projet Annuel\NetworkPro\2- Code source\
 C:\Users\Damien\Documents\cours\ESGI\5A\Projet Annuel\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.csproj.GenerateResource.Cache
 C:\Users\Damien\Documents\cours\ESGI\5A\Projet Annuel\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.exe
 C:\Users\Damien\Documents\cours\ESGI\5A\Projet Annuel\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.pdb
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\bin\Debug\NetworkPro.exe.config
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\bin\Debug\NetworkPro.exe
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\bin\Debug\NetworkPro.pdb
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.csprojResolveAssemblyReference.cache
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\MainWindow.baml
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\MainWindow.g.cs
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\App.g.cs
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro_MarkupCompile.cache
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.g.resources
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.Properties.Resources.resources
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.csproj.GenerateResource.Cache
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.exe
+C:\Users\Navi\Documents\Visual Studio 2012\Projects\NetworkPro\2- Code source\NetworkPro\NetworkPro\obj\Debug\NetworkPro.pdb
