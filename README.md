@@ -11,7 +11,7 @@ Politique de test [![alt text](https://github.com/izyj/MoyenneProject/raw/master
 
 Wireframe [![alt text](https://github.com/izyj/MoyenneProject/raw/master/doc/ok.png "OK")](https://github.com/izyj/MoyenneProject/blob/master/doc/ok.png)
 
-## Phase de développement partie 1 : Date limite 31/01/2016   
+## Phase de développement partie 1 : Date limite 20/03/2016   
 
 Installation des machines de développement : 
 
