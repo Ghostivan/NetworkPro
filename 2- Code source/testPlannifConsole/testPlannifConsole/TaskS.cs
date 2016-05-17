@@ -3,7 +3,7 @@ using TaskScheduler;
 
 public class TaskS
 {
-	public TaskS(String name, String path, DateTime dateExec, String description)
+	public TaskS(String name, String path, String prmtrs, DateTime dateExec, String description)
 	{
         if (dateExec < DateTime.Now)
             throw new SystemException("Date non valide : Date anterieur à la date actuelle");
@@ -27,7 +27,7 @@ public class TaskS
         action.Id = name;
         action.Path = path;
         //action.WorkingDirectory = "working dir";
-        //action.Arguments = "app arguments";  /// <-- here you put your arguments..
+        action.Arguments = prmtrs;
 
         ITaskFolder root = scheduler.GetFolder("\\");
 
