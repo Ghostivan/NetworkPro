@@ -12,11 +12,17 @@ namespace testPlannifConsole
         static void Main(string[] args)
         {
             
-            //TaskS ts = new TaskS("notepad", @"C:\WINDOWS\system32\notepad.exe", new DateTime(2016, 4, 10, 20, 01, 00), "Pour tester lancement du bloc note");
-            TaskS ts = new TaskS("SpotifyInstaller", @"C:\Users\Damien\Downloads\SpotifySetup.exe", "-s -qn -noreeboot", DateTime.Now.AddSeconds(2)/*new DateTime(2016, 4, 25, 00, 56, 00)*/, "Pour tester l'installation de spotify");
-            //TaskS ts = new TaskS("shutdown", "shutdown.exe","-s -t 300", DateTime.Now.AddSeconds(2)/*new DateTime(2016, 5, 17, 00, 12, 00)*/, "Pour tester shutdown avec paramètres");
+            
+            TaskS ts = new TaskS();
+            //ts.plannifAction("SpotifyInstaller", @"C:\Users\Damien\Downloads\SpotifySetup.exe", "s", DateTime.Now.AddSeconds(2)/*new DateTime(2016, 4, 25, 00, 56, 00)*/, "Pour tester l'installation de spotify");
+            //ts.plannifAction("CamStudio", @"C:\Users\Damien\Downloads\camstudio.exe", "", DateTime.Now.AddSeconds(10), "Instalation Cam Studio");
+
+
+            
             ts.listTask();
             Console.ReadKey();
         }
     }
 }
+
+//ts.plannifAction("notepad", @"C:\WINDOWS\system32\notepad.exe", new DateTime(2016, 4, 10, 20, 01, 00), "Pour tester lancement du bloc note");
